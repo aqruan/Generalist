@@ -1,2 +1,56 @@
-# Generalist
-CVPR 2023
+# Generalist (A Simple Framework for Adversarial Robustness without Sacrificing Accuracy)
+
+Official implementation for CVPR'23 paper "A Simple Framework for Adversarial Robustness without Sacrificing Accuracy"
+
+
+
+## Prerequisites
+
+- Python (>=3.7)
+- Pytorch (>=1.5)
+- Torchvision
+- CUDA
+- Numpy
+- [AutoAttack](https://github.com/fra31/auto-attack)
+
+
+
+## Training and Testing
+
+- Train ResNet-18 on CIFAR10:
+
+```
+  $ CUDA_VISIBLE_DEVICES={your GPU number} python3 main.py 
+```
+
+- Train WRN-32-10 on CIFAR10
+
+```
+  $ CUDA_VISIBLE_DEVICES={your GPU number} python3 main.py --arch 'WRN32'
+```
+
+Then, it will automatically run all the robustness evaluation in our paper, including NAT, PGD20/100, MIM, CW, APGD<sub>ce</sub>, APGD<sub>dlr</sub>, APGD<sub>t</sub>, FAB<sub>t</sub>, Square and AutoAttack.
+
+
+
+## Citation
+
+If you are interested in our work, please consider citing the related paper:
+
+```
+@inproceedings{wang2023simple,
+  title={A Simple Framework for Adversarial Robustness without Sacrificing Accuracy},
+  author={Hongjun Wang and Yisen Wang},
+  booktitle={CVPR},
+  year={2023}
+}
+```
+
+```
+@inproceedings{wang2022selfensemble,
+  title={Self-ensemble Adversarial Training for Improved Robustness},
+  author={Hongjun Wang and Yisen Wang},
+  booktitle={ICLR},
+  year={2022}
+}
+```

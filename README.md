@@ -1,6 +1,6 @@
-# Generalist (A Simple Framework for Adversarial Robustness without Sacrificing Accuracy)
+# Generalist: Decoupling Natural and Robust Generalization
 
-Official implementation for CVPR'23 paper "A Simple Framework for Adversarial Robustness without Sacrificing Accuracy"
+Official implementation for CVPR'23 paper "Generalist: Decoupling Natural and Robust Generalization"
 
 
 

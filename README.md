@@ -39,7 +39,7 @@ If you are interested in our work, please consider citing the related paper:
 
 ```
 @inproceedings{wang2023simple,
-  title={A Simple Framework for Adversarial Robustness without Sacrificing Accuracy},
+  title={Generalist: Decoupling Natural and Robust Generalization},
   author={Hongjun Wang and Yisen Wang},
   booktitle={CVPR},
   year={2023}

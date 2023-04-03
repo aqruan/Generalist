@@ -44,9 +44,7 @@ If you are interested in our work, please consider citing the related paper:
   booktitle={CVPR},
   year={2023}
 }
-```
 
-```
 @inproceedings{wang2022selfensemble,
   title={Self-ensemble Adversarial Training for Improved Robustness},
   author={Hongjun Wang and Yisen Wang},

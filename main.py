@@ -288,8 +288,6 @@ def main():
         model = PreActResNet18(num_classes=args.num_classes)
     if args.arch == "WRN32":
         model = Wide_ResNet_Madry(depth=32, num_classes=args.num_classes, widen_factor=10, dropRate=0.0)
-    if args.arch == "WRN34":
-        model = Wide_ResNet_Madry(depth=34, num_classes=args.num_classes, widen_factor=10, dropRate=0.0)
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model_at = torch.nn.DataParallel(model)

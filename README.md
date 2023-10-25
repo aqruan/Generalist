@@ -31,6 +31,7 @@ Official implementation for CVPR'23 paper "Generalist: Decoupling Natural and Ro
 
 Then, it will automatically run all the robustness evaluation in our paper, including NAT, PGD20/100, MIM, CW, APGD<sub>ce</sub>, APGD<sub>dlr</sub>, APGD<sub>t</sub>, FAB<sub>t</sub>, Square and AutoAttack.
 
+[Pretrained model](https://drive.google.com/file/d/1mbxSoTOUb4bfGDiJo46oKINqj42kgZyY/view?usp=drive_link)
 
 
 ## Citation

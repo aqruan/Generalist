@@ -112,7 +112,7 @@ class EMA(object):
 
 if args.arch == 'resnet18':
     adjust_learning_rate = lambda epoch: np.interp([epoch], [0, args.epochs // 3, args.epochs * 2 // 3, args.epochs], [args.lr, args.lr, args.lr/10, args.lr/100])[0]
-elif args.arch == 'WRN':
+elif args.arch == 'WRN32':
     args.lr = 0.1
     adjust_learning_rate = lambda epoch: np.interp([epoch], [0, args.epochs // 3, args.epochs * 2 // 3, args.epochs], [args.lr, args.lr, args.lr/10, args.lr/20])[0]
 

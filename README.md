@@ -15,6 +15,9 @@ Official implementation for CVPR'23 paper "Generalist: Decoupling Natural and Ro
 
 
 
+## 备注
+代码在pycharm中进行了修改，修改后可以直接运行
+
 ## Training and Testing
 
 - Train ResNet-18 on CIFAR10:

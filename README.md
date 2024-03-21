@@ -18,6 +18,7 @@ Official implementation for CVPR'23 paper "Generalist: Decoupling Natural and Ro
 ## 备注
 代码在pycharm中进行了修改，修改后可以直接运行
 比如![image](https://github.com/aqruan/Generalist/assets/76154299/8ad8ac26-f111-498b-8d45-0ff20f220b6a)
+
 改了cpu到gpu上
 
 ## Training and Testing
